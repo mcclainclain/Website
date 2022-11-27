@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="../stylesheet.css" />
+    <link rel="icon" href="../subfiles/page_icon.png" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="init">MM</div>
+      <a href="index.html" class="about">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="courses.html" class="courses">Courses</a>
+      <a onclick="redirect()" class="contact">Contact</a>
+      <span class="icons">
+        <a href="https://www.linkedin.com/in/matthew-mcclain-/" target="_blank"
+          ><img src="../subfiles/linkedin_icon.svg" class="icons"
+        /></a>
+        <a href="https://github.com/mcclainclain" target="_blank"
+          ><img src="../subfiles/github_icon.svg" class="icons"
+        /></a>
+      </span>
+    </div>
+
+    <div class="dropdown">
+      <button id="btn" class="dropbtn">
+        <img src="../subfiles/menu_icon.svg" class="btnimg" />
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="courses.html">Courses</a>
+        <a href="https://www.linkedin.com/in/matthew-mcclain-/" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/mcclainclain" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <h1 class="target">Here's My Resume.</h1>
+
+    <iframe src="../subfiles/Resume.pdf" class="resume"></iframe>
+  </body>
+  <script src="../script.js"></script>
+</html>
