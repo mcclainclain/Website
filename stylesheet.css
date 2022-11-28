@@ -79,6 +79,7 @@ a .icons{
     display: block;
     width: 100%;
     margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .dropdown{
@@ -99,6 +100,7 @@ a .icons{
     font-size: 70px;
     color: #1d2e48;
     font-family: Lato;
+    
 }
 
 .target span{
@@ -146,6 +148,7 @@ h2{
     margin: auto;
     display:block;
     height: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .download{
