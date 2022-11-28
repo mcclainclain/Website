@@ -46,4 +46,5 @@
       // Redirects to the user's default mail app to send an email
       function redirect() {
         window.location.href = "mailto:matthew.mcclain08@icloud.com";
+        alert("Redirecting to your default mail app...");
       }
