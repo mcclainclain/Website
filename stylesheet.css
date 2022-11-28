@@ -67,11 +67,11 @@ a .icons{
 
 @font-face {
     font-family: Comfortaa;
-    src: url("../subfiles/Comfortaa-VariableFont_wght.ttf");
+    src: url("Comfortaa-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: Lato;
-    src: url("../subfiles/Lato-Regular.ttf")
+    src: url("Lato-Regular.ttf")
 }
 
 .pic img{
