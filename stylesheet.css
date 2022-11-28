@@ -142,14 +142,20 @@ h2{
 
 
 .resume{
-    width: 90%;
+    width: 60%;
     margin: auto;
-    height: 100vh;
-    display: block;
+    display:block;
+    height: auto;
 }
 
-@media screen and (max-width: 800px){
-    
+.download{
+    text-align: center;
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Lato;
+    font-size: 24px;
+    color: #1d2e48;
 }
 
 @media screen and (max-width: 700px), screen and (max-height: 300px){
